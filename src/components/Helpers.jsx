@@ -1,5 +1,5 @@
 import { Subheading, ButtonElement } from '../styles/helpers';
-import { FaHand, FaUser, FaArrowDown } from 'react-icons/fa6';
+import { FaHand, FaUser, FaDiagramProject } from 'react-icons/fa6';
 
 export const SubHeading = ({ iconName = 'HERO', title }) => {
 	let Icon;
@@ -7,6 +7,8 @@ export const SubHeading = ({ iconName = 'HERO', title }) => {
 		Icon = FaHand;
 	} else if (iconName === 'ABOUT') {
 		Icon = FaUser;
+	} else if (iconName === 'PROJECT') {
+		Icon = FaDiagramProject;
 	}
 
 	return (

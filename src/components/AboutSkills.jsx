@@ -6,6 +6,7 @@ export default function AboutSkills({ ...skill }) {
 	return (
 		<Skill>
 			<Icon className="skill-icon" />
+			<span>{name}</span>
 		</Skill>
 	);
 }

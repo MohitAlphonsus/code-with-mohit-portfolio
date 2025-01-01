@@ -1,4 +1,4 @@
-import { Hero, About } from '../components';
+import { Hero, About, Projects } from '../components';
 import { Main } from '../styles/styles';
 
 export default function MainSection() {
@@ -6,6 +6,7 @@ export default function MainSection() {
 		<Main>
 			<Hero />
 			<About />
+			<Projects />
 		</Main>
 	);
 }

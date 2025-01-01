@@ -10,7 +10,7 @@ export default function About() {
 			<SubHeading iconName="ABOUT" title="About" />
 			<HeadingSecondary>Eager to Build and Learn</HeadingSecondary>
 			<p>
-				Hi there! I'm a
+				Hi there! I'm a{' '}
 				<strong>passionate and motivated frontend developer</strong> eager to
 				kickstart my career in web development. Although I’m just starting out,
 				I’ve dedicated countless hours to learning and mastering essential

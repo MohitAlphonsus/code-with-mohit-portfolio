@@ -119,16 +119,25 @@ export const AboutSection = styled.section`
 export const AboutCard = styled.div`
 	margin-top: 4rem;
 	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(1rem, max-content));
+	display: flex;
+	align-items: center;
 	gap: 1rem;
+	flex-wrap: wrap;
 `;
 
 export const Skill = styled.div`
-	height: 5rem;
-	width: 5rem;
-	border-radius: 50%;
-	display: grid;
-	place-content: center;
-	border: 1px solid var(--border-color-2);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--border-color);
+`;
+
+// PROJECTS
+export const ProjectSection = styled.section`
+	padding: 6rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
 `;
