@@ -110,4 +110,25 @@ export const AboutSection = styled.section`
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 2rem;
+
+	p strong {
+		color: var(--color-primary);
+	}
+`;
+
+export const AboutCard = styled.div`
+	margin-top: 4rem;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(1rem, max-content));
+	gap: 1rem;
+`;
+
+export const Skill = styled.div`
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+	border: 1px solid var(--border-color-2);
 `;

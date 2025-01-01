@@ -8,4 +8,15 @@ import Footer from './Footer';
 
 import CircularText from './CircularText';
 
-export { Profile, MainSection, Hero, About, Projects, Footer, CircularText };
+import AboutSkills from './AboutSkills';
+
+export {
+	Profile,
+	MainSection,
+	Hero,
+	About,
+	Projects,
+	Footer,
+	CircularText,
+	AboutSkills,
+};

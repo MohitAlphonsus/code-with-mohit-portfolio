@@ -8,6 +8,8 @@ const GlobalStyles = createGlobalStyle`
     --bg-color-primary: #0d1b2a;
     --bg-color-secondary: #1b263b;
     --border-color: #464c53;
+    --border-color-2 :rgb(57, 57, 57);
+
     --text-color-primary: #e0e0e0;
     --text-color-secondary: #a0a0a0;
     --gradient: linear-gradient(

@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const HeadingSecondary = styled.h2`
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.5rem;
+	line-height: 1.4;
+`;
+
 export const Subheading = styled.p`
 	font-size: 1.4rem;
 	text-transform: uppercase;
